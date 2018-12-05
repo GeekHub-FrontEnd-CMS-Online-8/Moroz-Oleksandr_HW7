@@ -1,0 +1,64 @@
+.header {
+	height: 1190px;
+	background: url("../img/header_bcg.jpg") no-repeat center;
+	background-position: top;
+	color: $white;
+	text-align: center;
+	width: 100%;
+	
+	.display-1 {
+		padding-top: 80px;
+		font-family: $myriadr;
+		font-size: $fsl;
+	}
+	.font-weight-normal {
+		font-family: $lator;
+		font-size: $fs30;
+		color: #8d81ac;
+		margin-bottom: 20px;
+	}
+	.lead {
+		font-family: $myriadr;
+		font-size: $font-size-base;
+		color: #848e97;
+	}
+	.btn-secondary {
+		border-radius: 50px;
+		width: 390px;
+		height: 62px;
+		background-color: $purple;
+		font-family: $myriadr;
+		font-size: $fs21;
+		text-transform: capitalize;
+		color: #fff;
+		margin-top: 440px;
+		margin-bottom: 20px;
+	}
+
+	.btn-secondary:hover {
+		background-color: $purple;
+		border: none;
+		box-shadow: none;
+	}
+	p {
+		font-family: $myriadr;
+		font-size: $fss;
+		color: #848e97;
+		margin-bottom: 55px;
+	}
+	h2 {
+		font-family: $myriadr;
+		font-size: $fs54;
+		color: #635c73;
+		text-transform: uppercase;
+		margin-bottom: 32px;
+	}
+	.h3 {
+		font-family: $myriadr;
+		font-size: $fs21;
+		color: #323232;
+		margin-bottom: 38px;
+	}
+}
+
+

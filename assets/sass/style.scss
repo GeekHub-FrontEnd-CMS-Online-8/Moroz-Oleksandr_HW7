@@ -1,0 +1,68 @@
+
+
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/_buttons";
+@import "../../node_modules/bootstrap/scss/_nav";
+@import "../../node_modules/bootstrap/scss/_type";
+@import "block/header";
+@import "../../node_modules/bootstrap/scss/_list-group";
+@import "../../node_modules/bootstrap/scss/_media";
+@import "block/feauters";
+
+
+.navbar-brand>img {
+	margin-right: 20px;
+	margin-top: -8px;
+}
+
+.container {
+	margin-top: 28px;
+	margin-bottom: 32px;
+}
+
+.navbar-brand>span {
+	font-family: $latob;
+	font-size: ($font-size-base * 1.5);
+	text-transform: uppercase;
+	color: #000;
+}
+
+.navbar-brand .purple {
+	color: #8d81ac;
+}
+
+
+
+.nav-link {
+	color: #635c73;
+	text-transform: capitalize;
+}
+
+.nav-link:hover {
+	color: #635c73;
+}
+
+
+.btn-secondary {
+	border-radius: 20px;
+	width: 145px;
+	height: 38px;
+	background-color: $purple;
+	font-family: $myriadr;
+	font-size: $font-size-base;
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.btn-secondary:hover {
+	background-color: $purple;
+	border: none;
+	box-shadow: none;
+}
+
