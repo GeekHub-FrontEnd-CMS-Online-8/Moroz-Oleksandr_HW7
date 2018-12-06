@@ -1,7 +1,6 @@
 .header {
 	height: 1190px;
-	background: url("../img/header_bcg.jpg") no-repeat center;
-	background-position: top;
+	
 	color: $white;
 	text-align: center;
 	width: 100%;
@@ -62,3 +61,10 @@
 }
 
 
+
+.container-fluid {
+	background: url("../img/header_bcg.jpg") no-repeat center;
+	background-size: cover;
+	
+	height: 800px;
+}

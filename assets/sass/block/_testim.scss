@@ -1,0 +1,21 @@
+
+.testim {
+	height: 1663px;
+	background-image: url(../img/bg2.jpg), url(../img/bg3.jpg);
+	
+}
+
+.testim .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.testim .col4 {
+	margin: 55px 30px;
+}
+
+.testim .col4 p {
+	margin-top: 30px;
+}

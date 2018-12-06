@@ -14,7 +14,9 @@
 @import "../../node_modules/bootstrap/scss/_list-group";
 @import "../../node_modules/bootstrap/scss/_media";
 @import "block/feauters";
-
+@import "../../node_modules/bootstrap/scss/_carousel";
+@import "block/social";
+@import "block/testim";
 
 .navbar-brand>img {
 	margin-right: 20px;
