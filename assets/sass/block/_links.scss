@@ -1,0 +1,41 @@
+
+.links h3{
+	font-family: $myriadr;
+	font-size: 28px;
+	text-transform: capitalize;
+	color: #d3d1da;
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.links h4{
+	font-family: $myriadr;
+	font-size: $font-size-base;
+	text-transform: capitalize;
+	color: #323232;
+	
+}
+
+.links h4>a {
+	color: $purple;
+}
+
+.links p {
+	font-family: $myriadr;
+	font-size: 13px;
+	color: #848e97;
+}
+
+.links time {
+	font-family: $myriadr;
+	font-size: 13px;
+	color: #848e97;
+	text-align: justify;
+}
+
+.links .btn-holder {
+	background-color: #f4f4f4;
+	width: 240px;
+}
+

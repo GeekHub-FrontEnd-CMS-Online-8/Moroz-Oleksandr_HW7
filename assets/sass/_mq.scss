@@ -1,0 +1,124 @@
+@media only screen and (max-width: 990px) {
+	.container_up .btn-secondary {
+		display: none;
+	}
+	
+	.container_up .nav {
+		justify-content: center;
+	
+	}
+	
+	.form {
+		margin-bottom: 20px;
+	}
+	
+	.form h3 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	
+	.form-inline {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.content {
+		
+		text-align: center;
+	}
+	
+	.btn-holder {
+		width: 200px;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	
+	.footer-holder .logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer-holder p {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+	.footer-holder h4 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	.footer-holder ul {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	.footer-holder ul li {
+				padding: 0px 15px;
+			}
+	.text-holder strong {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+	.text-holder address {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+	.available {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+	.text-frame h4 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+	.text-frame p {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				}
+
+	
+}
+
+
+@media only screen and (max-width: 768px) {
+	.navbar-brand {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.nav {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	h1, h2, .display-1 {
+		font-size: $fsm;
+	}
+	
+	.img-slide {
+		display: none;
+	}
+	
+	.media {
+		width: 100%;
+	}
+	
+	.text-primary {
+		margin: 0 auto;
+	}
+	
+}
+	

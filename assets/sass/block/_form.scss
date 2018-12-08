@@ -1,0 +1,43 @@
+
+.form {
+	background-color: #f4f4f4;
+	margin-top: -28px;
+	padding-top: 28px;
+	padding-bottom: 40px;
+}
+
+.form h3 {
+	font-family: $myriadr;
+	font-size: $fs30;
+	text-transform: capitalize;
+	color: #635c73;
+	
+}
+
+#exampleInputEmail2 {
+	border-radius: 20px;
+	margin-right: 1px;
+	width: 260px;
+	height: 42px;
+	margin-right: 30px;
+}
+
+.form input[type="email"] {
+	font-family: $myriadr;
+	font-size: $fss;
+	color: #c8cbcf;
+}
+
+.form .btn-secondary {
+	font-family: $myriadr;
+	font-size: $fss;
+	color: #fff;
+	text-transform: uppercase;
+	width: 140px;
+	height: 42px;
+}
+
+.form-inline {
+	display: flex;
+	justify-content: flex-end;
+}

@@ -18,13 +18,18 @@
 @import "block/social";
 @import "block/testim";
 @import "../../node_modules/bootstrap/scss/_card";
+@import "block/form";
+@import "../../node_modules/bootstrap/scss/_forms";
+@import "block/links";
+@import "block/footer";
+@import "mq";
 
 .navbar-brand>img {
 	margin-right: 20px;
 	margin-top: -8px;
 }
 
-.container {
+.container_up {
 	margin-top: 28px;
 	margin-bottom: 32px;
 }
